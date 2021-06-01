@@ -1,1 +1,3 @@
-Aim: Build a python program which can take input of students with their marks and gives their total marks obtained.
+## Task-1
+
+**Aim:** Build a Python Program which takes input of the students with their marks and gives their total marks obtained as output.

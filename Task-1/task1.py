@@ -9,7 +9,7 @@ try:
     stud_n = int(input("Enter the number of students:"))
 
     if stud_n == 0:
-        raise Exception("You have entered 0 students, you can't go further...")
+        raise Exception("You have entered 0 students, you can't go any further...")
 
     for i in range(stud_n):
         sname = input("Enter the name of student {} : ".format(i + 1))
