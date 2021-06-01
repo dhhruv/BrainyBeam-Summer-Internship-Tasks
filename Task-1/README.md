@@ -1,0 +1,1 @@
+Aim: Build a python program which can take input of students with their marks and gives their total marks obtained.
