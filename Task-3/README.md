@@ -30,6 +30,13 @@
         1.	NLU
         2.	NLG
 
+        <p align='center'>
+            <img src="https://user-images.githubusercontent.com/72680045/120422546-22188b80-c386-11eb-90e2-44fd3c9d2d84.png">
+        </p>
+        <p align='center'>
+            <img src="https://user-images.githubusercontent.com/72680045/120422722-7e7bab00-c386-11eb-8528-ad6d9bc1fc60.png">
+        </p>
+
 -   **NLU:**
     *   NLU stands for Natural Language Understanding.
     *   NLU is a branch of NLP.
@@ -51,16 +58,23 @@
         3.  Text Generation
         4.  Building Voice Assistants
 
-
--   NLU will initially try to understand the data based on:
-    1.	Grammar
-    2.	The context in which it was said
-    3.	Decision on entities as well as intent.
+-   **Working of NLP, NLU and NLG collaboratively:**
+    *   NLU will initially try to understand the data based on:
+        1.	Grammar
+        2.	The context in which it was said
+        3.	Decision on entities as well as intent.
 
 -   NLP will convert the NLU generated text into structured data.
 -   NLG will then generate text which is based on the NLP generated structured data.
+    <p align='center'>
+            <img src="https://user-images.githubusercontent.com/72680045/120422830-c69acd80-c386-11eb-9aa5-bc3c5f7c1ffe.png">
+    </p>
 
-
+-   NLP application concept:
+    *   NLP carries out text – pipeline as a part of algorithm and it is described as follows:
+        <p align='center'>
+            <img src="https://user-images.githubusercontent.com/72680045/120422942-0d88c300-c387-11eb-9fc5-5b8483fdeb25.png">
+        </p>
  
 -   **NLP Pipeline:**
 1.	Text Information: Entering the sound converted to text or text.

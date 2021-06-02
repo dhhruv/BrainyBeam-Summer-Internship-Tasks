@@ -48,14 +48,29 @@ print(a)
         2.	Independent Variables: The factors which are used to for prediction of dependent variables.
     *   Example of best fit line:
 
--   The formula for Linear Regression is as follows: y=a+bX
+    <p align='center'>
+        <img src="https://user-images.githubusercontent.com/72680045/120423061-4b85e700-c387-11eb-8307-ee06fec8fca3.png">
+        <img src="https://user-images.githubusercontent.com/72680045/120423092-580a3f80-c387-11eb-9f15-f8df334c7310.png">
+    </p>
+
+-   The formula for Linear Regression is as follows: **y = a + bX**
+    
     Here, 
     a 	>>	Intercept
     b	>>	Slope
     X	>>	Datapoints 
 
 -   This formula can also be derived as:
+    <p align='center'>
+        <img src="https://user-images.githubusercontent.com/72680045/120423158-7c661c00-c387-11eb-8a40-15ae90ae0b96.png">
+    </p>
 -   For obtaining the accuracy of the model that is developed for prediction via Linear Regression, “Cost Function” is used. 
 -   It is used to obtain the error-rate that how wrong the model is during estimation.
 -   The cost function is derived as follows i.e., Mean Square Error:
+    <p align='center'>
+        <img src="https://user-images.githubusercontent.com/72680045/120423326-d49d1e00-c387-11eb-90f5-4b8fecd5bcf3.png">
+    </p>
+    <p align='center'>
+        <img src="https://user-images.githubusercontent.com/72680045/120423359-e383d080-c387-11eb-93d9-503383e26ed1.png">
+    </p>
 -   The Convergence Theorem is used to reach global minima in a curve that is defined by Cost Function.
