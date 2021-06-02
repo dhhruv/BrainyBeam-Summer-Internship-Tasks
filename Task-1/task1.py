@@ -6,10 +6,10 @@ try:
 
     ## Obtaining data from user
 
-    stud_n = int(input("Enter the number of students:"))
+    stud_n = int(input("Enter the Number of Students: "))
 
     if stud_n == 0:
-        raise Exception("You have entered 0 students, you can't go any further...")
+        raise Exception("You have entered 0 students so you can't go any further...")
 
     for i in range(stud_n):
         sname = input("Enter the name of student {} : ".format(i + 1))
@@ -50,6 +50,7 @@ try:
         for counter in range(len(frame_col)):
             frame.loc[i + 1, frame_col[counter]] = data[frame_col[counter]]
         frame.loc[i + 1, "Total"] = np.sum(frame.loc[i + 1, "S1":"Total"])
+    print(frame)
 
 except Exception as e:
     print(e)
