@@ -74,3 +74,9 @@ print(a)
         <img src="https://user-images.githubusercontent.com/72680045/120423359-e383d080-c387-11eb-93d9-503383e26ed1.png">
     </p>
 -   The Convergence Theorem is used to reach global minima in a curve that is defined by Cost Function.
+
+### Task-4(D)
+
+**Aim:** Sales Price prediction using CSV.
+
+-   Complete Solution to predict using csv is shown in [task4d.ipynb](task4d.ipynb).
