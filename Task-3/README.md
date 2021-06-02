@@ -1,5 +1,7 @@
 ## Task-3
 
+### Task-3(A)
+
 **Aim:** Random module functions with explanation.
 -   Random module:
     *   Random module in python is used to generate pseudo-random variables.
@@ -68,3 +70,53 @@
 5.	Text Lemmatization and Stemming: Removing last characters which are unwanted and applying lemma.
 6.	Machine Learning Algorithms: To use ML Algorithms to train models.
 7.	Interpretation of Result: Obtaining final result in structured form.
+
+### Task-3(D)
+
+**Aim:** Perform Text-To-Speech examples using gtts.
+
+
+-   Regular Text-To-Speech:
+```sh
+from gtts import gTTS
+greet=gTTS("Welcome to my world")
+greet.save('voice.mp3')
+```
+
+-   Accent with Text-To-Speech (Example - 1):
+```sh
+from gtts import gTTS
+tts_en = gTTS('hello', lang='en')
+tts_fr = gTTS('bonjour', lang='fr') ## will follow the pronounciation of 'French'
+with open('hello_bonjour.mp3', 'wb') as f:
+    tts_en.write_to_fp(f)
+    tts_fr.write_to_fp(f)
+```
+
+-   Accent with Text-To-Speech (Example - 2):
+```sh
+from gtts import gTTS
+sen = gTTS('hello', lang='en')
+sfr = gTTS('hola amigo, despasito', lang='es') ## will follow the pronounciation of 'Spanish'
+with open('hola.mp3', 'wb') as f:
+    sen.write_to_fp(f)
+    sfr.write_to_fp(f)
+```
+
+-   Playing sound with the help of BytesIO:
+```sh
+from gtts import gTTS
+from io import BytesIO
+mp3_fp = BytesIO() ## will help playing the audio during execution
+tts = gTTS('hello', lang='en')
+tts.write_to_fp(mp3_fp)
+```
+
+-   Playing sound in slow motion:
+```sh
+from gtts import gTTS
+sfr = gTTS('despasito, quiero respirar tu cuello, despasito, Deja que te diga cosas al oido Para que te acuerdes si no estas connmigo, despasito', lang='es', slow=False)
+## will follow the pronounciation of 'Spanish' and in slow motion
+with open('desp.mp3', 'wb') as f:
+    sfr.write_to_fp(f)
+``` 
