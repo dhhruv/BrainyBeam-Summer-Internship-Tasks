@@ -25,9 +25,13 @@ Therefore, if you are just stepping into this field or planning to step into thi
     *   Decision trees learn from data to approximate a sine curve with a set of if – then – else decision rule.
     *   The deeper the tree, the more complex the decision rules and the fitter the model is.
 
-![image](https://user-images.githubusercontent.com/72680045/120965573-b158e100-c782-11eb-91bd-03e5c1251654.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72680045/120965573-b158e100-c782-11eb-91bd-03e5c1251654.png" />
+</p>
 
-![image](https://user-images.githubusercontent.com/72680045/120966756-4d371c80-c784-11eb-921d-df138c0dbb78.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72680045/120966756-4d371c80-c784-11eb-921d-df138c0dbb78.png" />
+</p>
 
 
 -   Terminologies of a decision tree:
@@ -41,7 +45,9 @@ Therefore, if you are just stepping into this field or planning to step into thi
     6.	Parent Node: The root node of any tree is known as parent node.
     7.	Child Node: Nodes other than root node are known as child nodes.
 
-![image](https://user-images.githubusercontent.com/72680045/120965692-d8afae00-c782-11eb-8214-86840b6bb107.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72680045/120965692-d8afae00-c782-11eb-8214-86840b6bb107.png" />
+</p>
 
 
 -   Types of Decision Trees:
@@ -63,10 +69,13 @@ Therefore, if you are just stepping into this field or planning to step into thi
 1.  **Information Gain:** It is an ASM which is used to decide the actual feature to split at each and every step-in decision tree. In this technique, the best split is chosen to obtain the purest results. Information is the measure which is a value and it measures how much information can be obtained by the class. The maximization of value of information gain is prior for a decision tree algorithm. This can be calculated with the help of the following formula:
 
     -   Entropy: Entropy is a metric which is used to measure the impurity of the attribute.  The randomness of the data is specified by entropy.
-    
+
 2.  **Gini Index:** Gini Index is used to create binary splits and it is a measure of purity/impurity. It is used during the creation of a decision tree in CART (Classification and Regression Tree). The attribute whose Gini Index is low is a preferable and high Gini Index is not preferable. The formula for Gini Index is as follows:
 
-![image](https://user-images.githubusercontent.com/72680045/120965784-f54be600-c782-11eb-874c-74421f1e9815.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72680045/120965784-f54be600-c782-11eb-874c-74421f1e9815.png" />
+</p>
+
 
 -   Advantages of Decision Tree:
     *   Useful in solving decision – related problems.
